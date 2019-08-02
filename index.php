@@ -31,7 +31,7 @@ if (isset($_SESSION[$tokenSessionKey])) {
 }
 $message  = "MIME-Version: 1.0\r\n";
 $message .= "From: FromName <frommail@gmail.com>\r\n";
-$message .= "To: Pavan <pavan9212@gmail.com>\r\n";
+$message .= "To: ToName <tomail@website.com>\r\n";
 $message .= "Subject: =?utf-8?B?".base64_encode('Sample Subject Which Contains Non-Latin Characters'.date(DATE_RFC2822))."?=\r\n";
 $message .= "Date: ".date(DATE_RFC2822)."\r\n"; 
 $message .= "Content-Type: multipart/alternative; boundary=test\r\n\r\n";
